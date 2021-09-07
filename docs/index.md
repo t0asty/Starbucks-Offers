@@ -81,3 +81,4 @@ Especially interesting on this project was the preparation and Cleaning of the d
 Very interesting for me was also the implementation of scaling, which improved all models instantly by 0.1 f1 score. 
 
 Improvements could be made by choosing even more models to compare, e.g. SVC or Ensemble classifiers could be an option. 
+
