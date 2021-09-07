@@ -17,6 +17,8 @@ data
 
 LICENSE
 
+docs # folder for blogpost webpage
+
 Starbucks_Capstone_notebook.ipynb # the notebook to preprocess data and train the model
 
 README.md
