@@ -3,6 +3,8 @@
 Many offers by all kinds of companies, but especially coffee houses, seem very misplaced and do not motivate the customer to use it. 
 But it would be very interesting for a company to find out which users are going to be happy to take the offer to make offers specifically to customers. This is what this blog post is about. 
 
+![Image](coffee-2608864_1920.jpeg)
+
 The data set contains simulated data that mimics customer behavior on the Starbucks rewards mobile app. Once every few days, Starbucks sends out an offer to users of the mobile app. An offer can be merely an advertisement for a drink or an actual offer such as a discount or BOGO (buy one get one free). Some users might not receive any offer during certain weeks. Not all users receive the same offer, and that is the challenge to solve with this data set.
 
 The data is contained in three files:
@@ -10,11 +12,6 @@ The data is contained in three files:
 * portfolio.json - containing offer ids and meta data about each offer (duration, type, etc.)
 * profile.json - demographic data for each customer
 * transcript.json - records for transactions, offers received, offers viewed, and offers completed
-
-
-![Image](coffee-2608864_1920.jpeg)
-
-Now let's see what makes you get the most out of your career.
 
 # Problem Introduction
 
@@ -112,6 +109,7 @@ The results in detail:
 |LinearSVC | {'C': 1.5, 'loss': 'squared_hinge', 'max_iter': 2000} | 0.69753262|
 
 And for KNeighbors Classifier we have:
+
 |model | hyperparams | F1-score on test-set |
 | ------------- |:-------------:| -----:|
 | KNeighbours Classifier | {'k': 5} | 0.6950|
